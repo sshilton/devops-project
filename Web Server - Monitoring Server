@@ -1,3 +1,4 @@
 # The web server is http://webapp01.servebeer.com it will auto-redirect to https://webapp01.servebeer.com
 # ICMP and ports 22,80,and 443 are allowed from anywhere.  This is intentional as I do not have a bastion host setup in this EC2 cloud.
-# Te view the (rudimentary) health checks on this server, go to http://monitoring.servebeer.com/icinga, user/passwd: ccguest / guest
+# To view the (rudimentary) health checks on this server, go to http://monitoring.servebeer.com/icinga, user/passwd: ccguest / guest
+# For a view of just the pertinant webapp01 info: http://monitoring.servebeer.com/cgi-bin/icinga/status.cgi?host=webapp01
